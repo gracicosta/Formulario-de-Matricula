@@ -47,5 +47,5 @@ aside h2 {
 }
 
 aside h2 > span {
-    color: var(--text-highlight);
+    color: var(--text-hightlight);
 }
