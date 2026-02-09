@@ -1,5 +1,6 @@
 .dropzone {
-    border: 1px dashed var(--stroke-default);
+    outline: 1px dashed var(--stroke-default);
+    border: 2px dashed transparent;
     border-radius: .25rem;
 
     display: grid;
@@ -25,7 +26,7 @@
 }
 
 .dropzone:hover {
-    border-width: 2px;
+    outline-width: 0;
     border-color: var(--stroke-highlight);
     background-color: var(--surface-secondary);
 
@@ -34,7 +35,7 @@
     }
 
     & svg path {
-        stroke: var(--stroke-highligh);
+        stroke: var(--stroke-highlight);
     }
 }
 
